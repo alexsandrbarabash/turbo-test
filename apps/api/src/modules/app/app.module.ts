@@ -7,6 +7,7 @@ import {
 import { ConfigModule } from '@nestjs/config';
 import { DbModule } from '@cowchain/database';
 import { RedisModule } from '@cowchain/redis';
+const asdasd = 'sdf';
 
 import { ApplicationSeedModule } from '../application-seed/application-seed.module';
 import {
