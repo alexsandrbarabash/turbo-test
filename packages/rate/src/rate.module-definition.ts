@@ -1,5 +1,5 @@
 import { ConfigurableModuleBuilder } from '@nestjs/common';
-import { Provider } from './enums';
+import { Provider } from "./enums";
 
 export type RateModuleOptions = {
   apiKey?: string;
