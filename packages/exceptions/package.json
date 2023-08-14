@@ -1,0 +1,17 @@
+{
+    "name": "@cowchain/exceptions",
+    "version": "0.0.0",
+    "private": true,
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "rimraf dist && rimraf *.tsbuildinfo && tsc"
+    },
+    "dependencies": {
+        "@cowchain/tsconfig": "*",
+        "@nestjs/common": "^10.0.0",
+        "typescript": "5.1.3"
+    },
+    "devDependencies": {
+        "rimraf": "^5.0.1"
+    }
+}

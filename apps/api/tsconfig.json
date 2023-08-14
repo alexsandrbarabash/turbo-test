@@ -1,0 +1,7 @@
+{
+  "extends": "./node_modules/@cowchain/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist"
+  }
+}

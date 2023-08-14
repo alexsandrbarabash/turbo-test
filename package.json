@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "server:up": "docker-compose up",
+    "server:rebuild": "docker-compose up --always-recreate-deps --build",
+    "server:down": "docker-compose down"
+  },
+  "devDependencies": {
+    "@turbo/gen": "^1.9.7",
+    "eslint": "^7.32.0",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.6.10",
+  "name": "carbon-backend"
+}
