@@ -1,0 +1,4 @@
+export enum Provider {
+  COINGECKO = 'COINGECKO',
+  COINMARKETCAP = 'COINMARKETCAP',
+}
