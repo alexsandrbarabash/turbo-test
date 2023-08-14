@@ -1,5 +1,7 @@
-import { ConfigurableModuleBuilder } from '@nestjs/common';
-import { Provider } from "./enums";
+import { ConfigurableModuleBuilder } from '@nestjs/common'
+import { Provider } from "./enums"
+
+const asdasd = 'sdf';
 
 export type RateModuleOptions = {
   apiKey?: string;
