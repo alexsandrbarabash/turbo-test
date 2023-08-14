@@ -7,6 +7,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
+    "api:start:dev": "turbo run start:dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "server:up": "docker-compose up",
